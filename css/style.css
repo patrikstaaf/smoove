@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@900&display=swap");
+
+:root {
+  /********* Colors *********/
+
+  /* Main Colors */
+
+  --cream: #e3ded4;
+  --gray: #857e77;
+  --coffee: #271f19;
+
+  /* Shades */
+  --cream-shade-one: #ccc6bd;
+  --cream-shade-two: #b4aea5;
+  --cream-shade-three: #9d968e;
+  --gray-shade-one: #6e675f;
+  --gray-shade-two: #564f48;
+  --gray-shade-three: #3f3730;
+
+  /* Accent Colors */
+  --gold: #d3b162;
+  --teal: #8db2b4;
+  --pine: #566d68;
+
+  /********* Fonts *********/
+  --heading: "Jost", sans-serif;
+  --paragraph: "Lexend Deca", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
