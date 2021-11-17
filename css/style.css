@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 
 :root {
   /********* Colors *********/
@@ -113,8 +113,19 @@ section {
   margin-left: 1rem;
 }
 
+/* .nav-item:nth-child(2){
+  margin-right: 1rem;
+  margin-top: 0.4rem;
+  display: block;
+  margin-left: auto;
+} */
+
 .nav-item:nth-child(4) {
   margin-bottom: 1rem;
+}
+
+.nav-item:nth-child(5) {
+  display: none;
 }
 
 .nav-link {
@@ -149,6 +160,9 @@ section {
   .nav-item:nth-child(4) {
     margin-bottom: 0;
     margin-right: 1rem;
+  }
+  .nav-item:nth-child(5) {
+    display: block;
   }
 }
 
