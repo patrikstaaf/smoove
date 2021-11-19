@@ -10,8 +10,8 @@
   <body>
     <header>
       <div class="newsletter-dropdown">
-        <p>Sign up for our newsletter.</p>
-        <img src="/assets/eva_close-outline.svg" alt="" />
+        <a href="#scroll-newsletter">Sign up for our newsletter.</a>
+        <img class="exitNewsletter" src="/assets/eva_close-outline.svg" alt="" />
       </div>
       <nav>
         <div class="menu">
@@ -20,11 +20,11 @@
             <p class="menu-child-left logo-text">SMOOVE</p>
           </div>
           <div class="menu-right">
-            <a class="menu-child-right text-big" href="#">DESIGN YOUR SMOOVE</a>
+            <a class="menu-child-right text-big" href="#design-your-smoove">DESIGN YOUR SMOOVE</a>
             <span></span>
-            <a class="menu-child-right text-big" href="#">STORE</a>
+            <a class="menu-child-right text-big" href="#store">STORE</a>
             <span></span>
-            <a class="menu-child-right text-big" href="#">ABOUT</a>
+            <a class="menu-child-right text-big" href="#about">ABOUT</a>
             <span></span>
             <img class="menu-child-right" src="assets/Vector.svg" alt="" />
             <img
@@ -89,7 +89,7 @@
         </p>
       </div>
     </section>
-    <section class="car-modifications">
+    <section class="car-modifications" id="design-your-smoove">
       <div>
         <img src="#" alt="Exterior." />
         <h3>Smoove design</h3>
@@ -162,7 +162,7 @@
           </p>
         </div>
       </div> -->
-      <div class="newsletter">
+      <div class="newsletter" id="scroll-newsletter">
         <h3>Sign up for our newsletter</h3>
         <p>Get the latest news - first.</p>
         <form class="newsletter-input" action="index.html">
@@ -172,7 +172,7 @@
         </form>
       </div>
     </section>
-    <section class="store">
+    <section class="store" id="store">
       <div class="store-container">
         <div class="store-header">
           <h2>Store</h2>
@@ -189,7 +189,7 @@
         <div class="gallery-luggage"></div>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="about">
       <div class="top-footer">
         <p>Today we are starting a new chapter.</p>
         <h3>Smoove; it is the future.</h3>
@@ -213,6 +213,6 @@
         <div class="social-container"></div>
       </div>
     </footer>
-    <script src="/smoove/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
