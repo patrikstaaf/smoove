@@ -491,6 +491,7 @@ section {
 .slider {
   text-align: center;
   overflow: hidden;
+  height: 70%;
 }
 
 .slides {
@@ -569,8 +570,29 @@ section {
 /********* Footer Section *********/
 
 .footer {
-  background-color: var(--cream-shade-two);
+  /* background-color: var(--cream-shade-two); */
   height: calc(var(--vh, 1vh) * 100);
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
+  display: flex;
+}
+
+.footer-images {
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+}
+
+.footer-overlay {
+  object-fit: cover;
+  width: 100vw;
+  position: absolute;
+  align-self: flex-end;
+}
+
+.footer-image {
+  object-fit: cover;
+  width: 100vw;
+  position: absolute;
+  align-self: flex-start;
 }
