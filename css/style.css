@@ -575,11 +575,11 @@ section {
   width: 100vw;
   overflow: hidden;
   display: flex;
+  /* align-items: flex-end; */
 }
 
 .footer-images {
   width: 100vw;
-  overflow: hidden;
   display: flex;
 }
 
@@ -595,4 +595,5 @@ section {
   width: 100vw;
   position: absolute;
   align-self: flex-start;
+  z-index: -1;
 }
