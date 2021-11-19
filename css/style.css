@@ -35,6 +35,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  --vh: 1vh;
 }
 
 /********* HTML elements *********/
@@ -243,9 +244,9 @@ section {
 
 /********* Animation Section *********/
 
-/* .animation {
-  background-color: var(--gray);
-} */
+.animation {
+  background-color: #3f3730;
+}
 
 .animation-img {
   width: 100%;
@@ -296,6 +297,20 @@ section {
 
 .usp {
   background-color: var(--gold);
+}
+
+.usp-img-1 {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.6;
+}
+
+.usp-container {
+  position: absolute;
+  top: 310%;
+  left: 3%;
 }
 
 /********* Store Section *********/
