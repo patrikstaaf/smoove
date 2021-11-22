@@ -95,7 +95,7 @@ nav li {
   align-items: center;
   padding: 1rem 1.5rem;
   height: 128px;
-  background-color: #3F3730;
+  background-color: #3f3730;
   width: 100vw;
   position: fixed;
   margin-top: 3rem;
@@ -133,7 +133,7 @@ nav a {
   margin: 9px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #E3DED4;
+  background-color: #e3ded4;
   border-radius: 2px;
 }
 
@@ -145,19 +145,19 @@ nav a {
   margin-left: 12rem;
 }
 
-.nav-link{
+.nav-link {
   font-size: 24px;
   font-weight: 500;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.nav-link:hover{
-  color: #B4AEA5;
+.nav-link:hover {
+  color: #b4aea5;
 }
 
 .nav-logo-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   letter-spacing: 2px;
   font-weight: 500;
@@ -174,84 +174,83 @@ nav a {
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 112px;
-      flex-direction: column;
-      background-color: #3F3730;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
+    position: fixed;
+    left: -100%;
+    top: 112px;
+    flex-direction: column;
+    background-color: #3f3730;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
   }
 
   .nav-menu.active {
-      left: 0;
-      z-index: 2;
+    left: 0;
+    z-index: 2;
   }
 
   .nav-item {
-      margin: 2.5rem 0;
+    margin: 2.5rem 0;
   }
 
   .hamburger {
-      display: block;
-      cursor: pointer;
+    display: block;
+    cursor: pointer;
   }
 
   .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
+    opacity: 0;
   }
 
   .hamburger.active .bar:nth-child(1) {
-      transform: translateY(12px) rotate(45deg);
+    transform: translateY(12px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-12px) rotate(-45deg);
+    transform: translateY(-12px) rotate(-45deg);
   }
 
   .navbar {
-      height: 64px;
+    height: 64px;
   }
 
   .nav-item:first-child {
-      display: block;
+    display: block;
   }
 
   .search-icon {
-      display: none;
+    display: none;
   }
 
   .nav-link {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .nav-logo-text {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .nav-logo {
-      height: 48px;
+    height: 48px;
   }
 
   .icons {
-      gap: 1.4rem;
+    gap: 1.4rem;
   }
-
 }
 
 @media only screen and (min-width: 425px) {
   .navbar {
-      padding: 1rem 4.5rem;
+    padding: 1rem 4.5rem;
   }
 }
 
 @media only screen and (max-width: 1040px) {
   .icons {
-      gap: 1.4rem;
+    gap: 1.4rem;
   }
   .nav-menu {
-      margin-left: 0rem;
+    margin-left: 0rem;
   }
 }
 
@@ -537,7 +536,7 @@ nav a {
 
 @media only screen and (min-width: 768px) {
   .slides > div {
-      width: 33.333333333%;
+    width: 33.333333333%;
   }
   .slider a {
     display: none;
@@ -553,6 +552,8 @@ nav a {
   overflow: hidden;
   display: flex;
   /* align-items: flex-end; */
+  position: relative;
+  justify-content: center;
 }
 
 .footer-images {
@@ -580,5 +581,92 @@ nav a {
 
 .footer-wrapper {
   position: absolute;
-  z-index: 99;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--cream);
+  font-family: var(--paragraph);
+  font-size: 16px;
+  margin: 1.5rem;
+  row-gap: 1.5em;
+  bottom: 9%;
+}
+
+.footer-wrapper a {
+  text-decoration: none;
+  color: var(--cream);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.05em;
+}
+
+.footer-help {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.5rem;
+  letter-spacing: 0.05em;
+}
+
+.footer-help img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.05em;
+}
+
+.footer-social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 3.5rem;
+  row-gap: 0.5rem;
+  grid-gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.footer-links h3 {
+  font-family: var(--heading);
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.footer-help h3 {
+  font-family: var(--heading);
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.footer-contact h3 {
+  font-family: var(--heading);
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+/* .company-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  bottom: 5%;
+  margin: 0 auto;
+} */
+
+.footer-company {
+  font-family: var(--paragraph);
+  font-size: 12px;
+  color: var(--cream-shade-three);
+  letter-spacing: 0.05em;
+  position: absolute;
+  z-index: 1;
+  bottom: 5%;
 }
