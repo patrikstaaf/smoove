@@ -601,3 +601,8 @@ section {
   align-self: flex-end;
   height: 100%;
 }
+
+.footer-wrapper {
+  position: absolute;
+  z-index: 99;
+}
