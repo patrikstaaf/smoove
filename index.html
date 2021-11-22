@@ -233,8 +233,28 @@
         <div class="social-container"></div>
       </div> -->
       <div class="footer-images">
-        <img class="footer-overlay" src="assets/Desktop.svg" alt="" />
-        <img class="footer-image" src="assets/footer-image.png" alt="" />
+        <img class="footer-image" src="assets/footer-image-new.png" alt="" />
+        <!-- <img class="footer-overlay" src="assets/Desktop.svg" alt="" /> -->
+        <!-- <img
+          class="footer-overlay"
+          src="assets/Mobile.svg"
+          srcset="assets/Desktop.svg 750w"
+          sizes="(min-width: 700px) 750px"
+          alt=""
+        /> -->
+        <picture>
+          <source
+            class="footer-overlay"
+            media="(min-width: 650px)"
+            srcset="/assets/Desktop.svg"
+          />
+          <img
+            class="footer-overlay"
+            src="assets/Mobile.svg"
+            alt="Logo"
+            loading="lazy"
+          />
+        </picture>
       </div>
     </footer>
     <script src="script.js"></script>
