@@ -8,12 +8,15 @@ function setDimensions() {
 setDimensions();
 window.addEventListener("resize", setDimensions);
 
-const exitNewsletter = document.querySelector('.exitNewsletter');
-const newsletter = document.querySelector('.newsletter-dropdown');
-const navbar = document.querySelector('.menu');
-const open = document.querySelector('.open');
+const exitNewsletter = document.querySelector(".exitNewsletter");
+const newsletter = document.querySelector(".newsletter-dropdown");
+const navbar = document.querySelector(".menu");
+const open = document.querySelector(".open");
 
-const hideNewsletter = exitNewsletter.addEventListener('click', function(event) {
-  newsletter.style.display = "none";
-  navbar.style.marginTop = 0;
-})
+const hideNewsletter = exitNewsletter.addEventListener(
+  "click",
+  function (event) {
+    newsletter.style.display = "none";
+    navbar.style.marginTop = 0;
+  }
+);

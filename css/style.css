@@ -61,7 +61,7 @@ section {
   position: fixed;
   background-color: var(--teal);
   width: 100%;
-  height: 64px;
+  height: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,12 +87,12 @@ section {
 
 .menu {
   height: 64px;
-  width: 100vw;
+  width: 100%;
   background-color: #3f3730;
   display: flex;
   justify-content: space-between;
   position: fixed;
-  margin-top: 4rem;
+  margin-top: 3rem;
   z-index: 2;
 }
 
@@ -572,27 +572,27 @@ section {
 .footer {
   /* background-color: var(--cream-shade-two); */
   height: calc(var(--vh, 1vh) * 100);
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   display: flex;
   /* align-items: flex-end; */
 }
 
 .footer-images {
-  width: 100vw;
+  width: 100%;
   display: flex;
 }
 
 .footer-overlay {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   align-self: flex-end;
 }
 
 .footer-image {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   align-self: flex-start;
   z-index: -1;
