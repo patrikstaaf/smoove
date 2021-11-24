@@ -453,13 +453,11 @@ nav a {
 }
 
 .store-header {
-  position: absolute;
-  top: 3%;
-  left: 3%;
+  width: 100%;
 }
 
 .store-header h2 {
-  font-style: var(--heading);
+  font-family: var(--heading);
   font-size: 50px;
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -470,6 +468,100 @@ nav a {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  margin-top: 80px;
+  margin-bottom: 5%;
+}
+
+/** Slide store **/
+
+.store-slider {
+  text-align: center;
+  overflow: hidden;
+  /* height: 70%; */
+  /* margin-left: 32px;
+  margin-right: 32px; */
+}
+
+.store-slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  height: 33.3333%;
+  padding: 0px 32px 0px 32px;
+}
+
+.store-slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  transform-origin: center center;
+  transform: scale(1,1);
+  transition: transform 0.5s;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  padding: 0px 6px 0px 6px;;
+}
+
+.store-gallery-image {
+  object-fit: fill;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.gallery-subheading {
+  font-size: 16px;
+}
+
+.gallery-text {
+  position: absolute;
+  text-align: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.store-slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.store-slider > a:active {
+  top: 1px;
+}
+.store-slider > a:focus {
+  background: #000;
+}
+
+@media only screen and (min-width: 768px) {
+  .store-slides > div {
+    width: 33.33333%;
+  }
+  .store-slider a {
+    display: none;
+  }
+  .store-header h2 {
+    margin-top: 5%;
+  }
+  .store-slides {
+    overflow-x: hidden;
+  }
 }
 
 /** Slider **/
@@ -492,7 +584,7 @@ nav a {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 90%;
-  height: 60vh;
+  height: 60%;
   background-color: #000;
   transform-origin: center center;
   transform: scale(1);
