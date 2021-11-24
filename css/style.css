@@ -143,7 +143,6 @@ nav a {
   justify-content: space-evenly;
   align-items: center;
   flex-grow: 1;
-  margin-left: 12rem;
 }
 
 .nav-link {
@@ -173,7 +172,13 @@ nav a {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1200px) {
+  .nav-menu {
+    margin-left: 12rem;
+  }
+}
+
+@media only screen and (max-width: 920px) {
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -233,16 +238,6 @@ nav a {
 
   .nav-logo {
     height: 48px;
-  }
-
-  .icons {
-    gap: 1.4rem;
-  }
-}
-
-@media only screen and (min-width: 425px) {
-  .navbar {
-    padding: 1rem 4.5rem;
   }
 }
 
@@ -455,6 +450,7 @@ nav a {
 
 .store-header {
   width: 100%;
+  margin-left: 36px;
 }
 
 .store-header h2 {
@@ -469,8 +465,7 @@ nav a {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-top: 80px;
-  margin-bottom: 5%;
+  /* margin: 80px 0px 10px 0px; */
 }
 
 /** Slide store **/
@@ -478,9 +473,6 @@ nav a {
 .store-slider {
   text-align: center;
   overflow: hidden;
-  /* height: 70%; */
-  /* margin-left: 32px;
-  margin-right: 32px; */
 }
 
 .store-slides {
@@ -491,6 +483,13 @@ nav a {
   -webkit-overflow-scrolling: touch;
   height: 33.3333%;
   padding: 0px 32px 0px 32px;
+  margin-left: 36px;
+  margin-bottom: 3rem;
+}
+
+.store-slides button {
+  background-color: #566d68;
+
 }
 
 .store-slides > div {
@@ -558,10 +557,11 @@ nav a {
     display: none;
   }
   .store-header h2 {
-    margin-top: 5%;
+    font-size: 100px;
   }
   .store-slides {
     overflow-x: hidden;
+    margin-left: 0px;
   }
 }
 
