@@ -1,12 +1,12 @@
-function setDimensions() {
-  // Get the viewport height and multiple it by 1% to get a value for a vh unit
-  const vh = window.innerHeight * 0.01;
-  // Set the value in the --vh custom property to the root of the document
-  document.documentElement.style.setProperty("--vh", `${vh}px`);
-}
+// function setDimensions() {
+//   // Get the viewport height and multiple it by 1% to get a value for a vh unit
+//   const vh = window.innerHeight * 0.01;
+//   // Set the value in the --vh custom property to the root of the document
+//   document.documentElement.style.setProperty("--vh", `${vh}px`);
+// }
 
-setDimensions();
-window.addEventListener("resize", setDimensions);
+// setDimensions();
+// window.addEventListener("resize", setDimensions);
 
 /* Newsletter dropdown */
 
@@ -33,15 +33,15 @@ const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 }
 
 const navLink = document.querySelectorAll(".nav-link");
 
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
 }
