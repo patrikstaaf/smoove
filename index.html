@@ -10,7 +10,16 @@
   <body>
     <header>
       <div class="newsletter-dropdown">
-        <a href="#scroll-newsletter">Sign up for our newsletter.</a>
+        <a
+          class="dropdown-newsletter dropdown-text-mobile"
+          href="#scroll-newsletter"
+          >Sign up for our newsletter.</a
+        >
+        <a
+          class="dropdown-newsletter dropdown-text-desktop"
+          href="#scroll-newsletter"
+          >Sign up for our newsletter. Get the latest news - first.</a
+        >
         <img
           class="exitNewsletter"
           src="/assets/eva_close-outline.svg"
@@ -54,20 +63,28 @@
       <img class="hero-img" src="assets/animationstudiotest2.png" alt="" />
       <div class="hero-text">
         <h1 class="hero-header">SMOOVE.</h1>
-        <h2>You are special. You are smoove.</h2>
-        <p>
+        <h2 class="hero-h2-desktop">You are special. You are smoove.</h2>
+        <h2 class="hero-h2-mobile">You are special.</h2>
+        <h2 class="hero-h2-mobile">You are smoove.</h2>
+        <p class="hero-p-mobile">
           Geely is bringing car driving to the next level. We are on the go for
           the future.
         </p>
+        <p class="hero-p-desktop">
+          Geely is bringing car driving to the next level.
+        </p>
+        <p class="hero-p-desktop">We are on the go for the future.</p>
       </div>
     </section>
     <section class="animation">
-      <!-- <img class="animation-img" src="assets/ezgif 1.png" alt="" /> -->
       <video autoplay muted playsinline loop>
         <source src="/assets/cropped-animation.mp4" type="video/mp4" />
       </video>
       <div class="animation-header-wrapper">
-        <h2 class="animation-header">Unmatched techonology.</h2>
+        <h2 class="animation-header">
+          Unmatched <br />
+          techonology.
+        </h2>
       </div>
       <div class="animation-text">
         <p>
@@ -118,7 +135,7 @@
         </div>
       </div>
     </section>
-    <section class="usp">
+    <section class="usp" id="scroll-newsletter">
       <div class="slider">
         <div class="slides">
           <div id="slide-1">
