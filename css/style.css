@@ -45,6 +45,14 @@ input {
 
 body {
   scroll-behavior: smooth;
+  /* height: 100vh; */
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    height: -webkit-fill-available;
+  }
 }
 
 section {
@@ -324,7 +332,7 @@ nav a {
 
 .animation-header {
   font-family: var(--heading);
-  font-size: 50px;
+  font-size: 26px;
   font-weight: 800;
   color: white;
 }
@@ -692,7 +700,7 @@ nav a {
   color: var(--cream);
   font-family: var(--paragraph);
   font-size: 16px;
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
   row-gap: 1.5em;
   bottom: 9%;
 }
