@@ -41,6 +41,10 @@ input {
   border: none;
 }
 
+button {
+  border: none;
+}
+
 /********* HTML elements *********/
 
 body {
@@ -361,7 +365,87 @@ nav a {
 /********* Car Modification Section *********/
 
 .car-modifications {
+  background-color: #4d453e;
+}
+
+.car-modifications h2 {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  font-family: var(--heading);
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  color: var(--cream);
+}
+
+.mod-img-wrapper img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.mod-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4d453e;
+  height: calc(40vh - 16px);
+  margin-top: 16px;
+}
+
+.mod-wrapper p {
+  font-family: var(--paragraph);
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.mod-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.mod-btn button {
+  height: 19px;
+  width: 19px;
+  border-radius: 50%;
+}
+
+.btn-yellow {
+  background-color: var(--gold);
+}
+
+.btn-teal {
+  background-color: var(--teal);
+}
+
+.btn-pine {
   background-color: var(--pine);
+}
+
+.btn-cream {
+  background-color: var(--cream);
+}
+
+.btn-coffee {
+  background-color: var(--coffee);
+}
+
+.mod-body-wrapper {
+  height: 33%;
+}
+
+.mod-interior-wrapper {
+  height: 33%;
+}
+
+.mod-rims-wrapper {
+  height: 33%;
 }
 
 /********* USP Section *********/
@@ -497,7 +581,6 @@ nav a {
 
 .store-slides button {
   background-color: #566d68;
-
 }
 
 .store-slides > div {
