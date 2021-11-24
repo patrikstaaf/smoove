@@ -45,6 +45,14 @@ input {
 
 body {
   scroll-behavior: smooth;
+  height: 100vh;
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    height: -webkit-fill-available;
+  }
 }
 
 section {
