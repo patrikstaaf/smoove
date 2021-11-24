@@ -45,7 +45,7 @@ input {
 
 body {
   scroll-behavior: smooth;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 @supports (-webkit-touch-callout: none) {
