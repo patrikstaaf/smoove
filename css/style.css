@@ -469,6 +469,12 @@ nav a {
   object-fit: cover;
 }
 
+@media screen and (min-width: 768px) {
+  .mod-img-wrapper img {
+    height: 100vh;
+  }
+}
+
 .mod-wrapper {
   display: flex;
   flex-direction: column;
@@ -488,17 +494,17 @@ nav a {
   margin-bottom: 12px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .mod-wrapper {
     display: flex;
     flex-direction: row;
     margin-top: 0;
   }
-}
+} */
 
 .mod-btn {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 60vw;
 }
 
@@ -538,6 +544,60 @@ nav a {
 
 .mod-rims-wrapper {
   height: 33%;
+}
+
+@media screen and (min-width: 768px) {
+  .mod-wrapper {
+    position: absolute;
+    z-index: 3;
+    height: 128px;
+    width: 100%;
+    bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .mod-wrapper p {
+    text-align: left;
+  }
+
+  .mod-body-wrapper {
+    height: 75%;
+    margin: 0 0 0 42px;
+  }
+
+  .mod-interior-wrapper {
+    height: 75%;
+    /* margin: 0 20px 0 20px; */
+  }
+
+  .mod-rims-wrapper {
+    height: 75%;
+    /* margin: 0 20px 0 20px; */
+  }
+
+  .mod-btn button {
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+  }
+
+  .mod-btn {
+    width: 33vw;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .mod-btn button {
+    margin-right: 30px;
+  }
+
+  .mod-body-wrapper {
+    /* height: 75%; */
+    margin: 0 0 0 62px;
+  }
 }
 
 /********* USP Section *********/
@@ -725,7 +785,7 @@ nav a {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 16px;
-  line-height: 1.4rem;;
+  line-height: 1.4rem;
   letter-spacing: 0.05em;
   font-weight: 500;
   color: var(--coffee);
