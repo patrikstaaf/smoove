@@ -606,6 +606,7 @@ nav a {
 .store-header {
   width: 100%;
   margin-left: 36px;
+  margin-top: 40px;
 }
 
 .store-header h2 {
@@ -642,8 +643,75 @@ nav a {
   margin-bottom: 3rem;
 }
 
-.store-slides button {
-  background-color: #566d68;
+.store-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.8em;
+  padding-bottom: 45%;
+}
+
+.store-buttons button {
+  height: 19px;
+  width: 19px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgb(46, 44, 44);
+}
+
+.store-buttons button:hover {
+  opacity: 0.7;
+}
+
+.store-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.store-title {
+  font-size: 16px;
+  color: var(--cream);
+  /* margin-top: 0.5rem; */
+}
+
+.store-buy-container {
+  width: 100%;
+  height: 48px;
+  /* margin-top: 0.5rem; */
+}
+
+.store-buy {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    142.63deg, #d3b162 12.32%, #fbd888 57.16%, #d3b162 103.43% );
+  text-align: start;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: var(--paragraph);
+}
+
+#store-slide-1 {
+  flex-direction: column;
+  padding: 0px 6px 0px 0px;
+  gap: 0.5rem;
+}
+
+#store-slide-2 {
+  flex-direction: column;
+  padding: 0px 6px 0px 6px;
+  gap: 0.5rem;
+}
+
+#store-slide-3 {
+  flex-direction: column;
+  padding: 0px 6px 0px 6px;
+  gap: 0.5rem;
+}
+
+.store-shopping {
+  stroke: #000;
 }
 
 .store-slides > div {
@@ -656,12 +724,11 @@ nav a {
   position: relative;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   font-size: 26px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  padding: 0px 6px 0px 6px;
 }
 
 .store-gallery-image {
@@ -681,26 +748,6 @@ nav a {
   text-align: left;
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.store-slider > a {
-  display: inline-flex;
-  width: 1.5rem;
-  height: 1.5rem;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin: 0 0 0.5rem 0;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-}
-.store-slider > a:active {
-  top: 1px;
-}
-.store-slider > a:focus {
-  background: #000;
 }
 
 @media only screen and (min-width: 768px) {
