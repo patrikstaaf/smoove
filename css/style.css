@@ -25,6 +25,10 @@
   /********* Fonts *********/
   --heading: "Montserrat", sans-serif;
   --paragraph: "Montserrat", sans-serif;
+
+  /********* Nav Height *********/
+
+  --navHeight: 15rem;
 }
 
 /********* Base Resets *********/
@@ -34,7 +38,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  --vh: 1vh;
+  /* --vh: 1vh; */
 }
 
 input {
@@ -47,9 +51,18 @@ button {
 
 /********* HTML elements *********/
 
-body {
+body,
+html {
   scroll-behavior: smooth;
+  /* overflow-y: scroll; */
   /* height: 100vh; */
+  scroll-padding-top: var(--navHeight);
+}
+
+@media (prefers-reduced-motion) {
+  body {
+    scroll-behavior: inital;
+  }
 }
 
 @supports (-webkit-touch-callout: none) {

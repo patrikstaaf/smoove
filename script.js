@@ -8,6 +8,17 @@
 // setDimensions();
 // window.addEventListener("resize", setDimensions);
 
+/* Get nav height for anchor links */
+
+const setNavHeight = function () {
+  const nav = document.querySelector(".navbar");
+  const root = document.querySelector(":root");
+  root.style.setProperty("--navHeight", `${nav.clientHeight * 1}px`);
+};
+
+window.addEventListener("resize", setNavHeight);
+window.addEventListener("DOMContentLoaded", setNavHeight);
+
 /* Newsletter dropdown */
 
 const exitNewsletter = document.querySelector(".exitNewsletter");
