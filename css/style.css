@@ -716,6 +716,7 @@ nav a {
   line-height: 1.4rem;;
   letter-spacing: 0.05em;
   font-weight: 500;
+  color: var(--coffee);
   font-family: var(--paragraph);
   display: flex;
   align-items: center;
