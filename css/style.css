@@ -299,7 +299,13 @@ nav a {
   -moz-text-fill-color: transparent;
 }
 
-.hero-text h2 {
+@media screen and (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 100px;
+  }
+}
+
+.hero-h2-mobile {
   font-family: var(--paragraph);
   font-size: 26px;
   font-weight: 800;
@@ -308,11 +314,21 @@ nav a {
 
 .hero-h2-desktop {
   display: none;
+  /* color: white;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  font-family: var(--paragraph);
+  font-weight: 800; */
 }
 
 @media only screen and (min-width: 768px) {
   .hero-h2-desktop {
     display: block;
+    color: white;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    font-family: var(--paragraph);
+    font-weight: 800;
   }
 
   .hero-h2-mobile {
@@ -320,7 +336,7 @@ nav a {
   }
 }
 
-.hero-text p {
+.hero-p-mobile {
   font-family: var(--paragraph);
   font-size: 16px;
   font-weight: 500;
@@ -337,6 +353,13 @@ nav a {
 @media only screen and (min-width: 768px) {
   .hero-p-desktop {
     display: block;
+    font-family: var(--paragraph);
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: white;
+    width: 80vw;
+    text-align: justify;
   }
 
   .hero-p-mobile {
