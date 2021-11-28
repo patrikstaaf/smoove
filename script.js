@@ -56,3 +56,17 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }
+
+/* Btn change image for "Design your smoove"-section */
+
+const img = document.querySelector(".mod-img-wrapper img");
+const btnYellow = document.querySelector(".mod-body-wrapper .btn-yellow");
+const btnPine = document.querySelector(".mod-body-wrapper .btn-pine");
+
+btnYellow.addEventListener("click", () => {
+  img.src = "./assets/StudioDone(1).webp";
+});
+
+btnPine.addEventListener("click", () => {
+  img.src = "./assets/studiobilgreen.webp";
+});

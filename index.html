@@ -60,7 +60,19 @@
       </nav>
     </header>
     <section class="hero">
-      <img class="hero-img" src="assets/MiljoHero.webp" alt="" />
+      <picture>
+        <source
+          class="hero-img"
+          media="(min-width: 650px)"
+          srcset="/assets/MiljoHero.webp"
+        />
+        <img
+          class="hero-img"
+          src="assets/mobilehero2.webp"
+          alt=""
+        />
+      </picture>
+      <!-- <img class="hero-img" src="assets/mobilehero2.webp" alt="" /> -->
       <div class="hero-text">
         <h1 class="hero-header">SMOOVE.</h1>
         <h2 class="hero-h2-desktop">You are special. You are smoove.</h2>
@@ -101,13 +113,14 @@
           <img src="/assets/StudioDone(1).webp" alt="Exterior." />
         </div>
         <h2>Make your Smoove.</h2>
+
         <div class="mod-wrapper">
           <div class="mod-body-wrapper">
             <p>Body</p>
             <div class="mod-btn">
               <button class="btn-yellow"></button>
-              <button class="btn-teal"></button>
               <button class="btn-pine"></button>
+              <button class="btn-teal"></button>
               <button class="btn-cream"></button>
               <button class="btn-coffee"></button>
             </div>
@@ -116,8 +129,8 @@
             <p>Interior</p>
             <div class="mod-btn">
               <button class="btn-yellow"></button>
-              <button class="btn-teal"></button>
               <button class="btn-pine"></button>
+              <button class="btn-teal"></button>
               <button class="btn-cream"></button>
               <button class="btn-coffee"></button>
             </div>
@@ -126,13 +139,14 @@
             <p>Rims</p>
             <div class="mod-btn">
               <button class="btn-yellow"></button>
-              <button class="btn-teal"></button>
               <button class="btn-pine"></button>
+              <button class="btn-teal"></button>
               <button class="btn-cream"></button>
               <button class="btn-coffee"></button>
             </div>
           </div>
         </div>
+
     </section>
     <section class="usp" id="scroll-newsletter">
       <div class="slider">
