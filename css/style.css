@@ -144,6 +144,7 @@ nav li {
 
 .nav-item input {
   height: 48px;
+  -webkit-appearance: none;
 }
 
 nav a {
@@ -196,6 +197,7 @@ font-family: var(--paragraph);
 font-weight: 500;
 letter-spacing: 0.05em;
 width: 100px;
+-webkit-appearance: none;
 }
 
 .nav-link:hover {
