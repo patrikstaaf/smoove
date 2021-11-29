@@ -55,7 +55,7 @@ body,
 html {
   scroll-behavior: smooth;
   /* overflow-y: scroll; */
-  /* height: 100vh; */
+  height: 100%;
   scroll-padding-top: var(--navHeight);
 }
 
@@ -74,7 +74,7 @@ html {
 
 section {
   position: relative;
-  height: 100vh;
+  height: 100%;
   /* height: calc(var(--vh, 1vh) * 100); */
   width: 100%;
   /* padding: 80px 0% 2% 0%; */
