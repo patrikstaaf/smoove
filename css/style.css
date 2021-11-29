@@ -144,6 +144,8 @@ nav li {
 
 .nav-item input {
   height: 48px;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 nav a {
@@ -191,6 +193,7 @@ nav a {
 
 .dropdown-search-button {
   background: linear-gradient(
+<<<<<<< HEAD
     142.63deg,
     #d3b162 12.32%,
     #fbd888 57.16%,
@@ -200,6 +203,16 @@ nav a {
   font-weight: 500;
   letter-spacing: 0.05em;
   width: 100px;
+=======
+142.63deg, #d3b162 12.32%, #fbd888 57.16%, #d3b162 103.43% );
+font-family: var(--paragraph);
+font-weight: 500;
+letter-spacing: 0.05em;
+width: 100px;
+-webkit-appearance: none;
+border-radius: 0;
+color: var(--coffee);
+>>>>>>> 8a0e3f5390e594dcae09811749823b8e19963ae9
 }
 
 .nav-link:hover {
