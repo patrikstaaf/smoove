@@ -142,6 +142,10 @@ nav li {
   z-index: 99;
 }
 
+.nav-item input {
+  height: 48px;
+}
+
 nav a {
   text-decoration: none;
 }
@@ -158,12 +162,6 @@ nav a {
 
 .search-icon {
   display: block;
-}
-
-.logo-wrapper {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
 }
 
 .bar {
@@ -191,19 +189,24 @@ nav a {
   font-family: "Montserrat", sans-serif;
 }
 
+.dropdown-search-button {
+  background: linear-gradient(
+142.63deg, #d3b162 12.32%, #fbd888 57.16%, #d3b162 103.43% );
+font-family: var(--paragraph);
+font-weight: 500;
+letter-spacing: 0.05em;
+width: 100px;
+}
+
 .nav-link:hover {
   color: #b4aea5;
 }
 
-.nav-logo-text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: #d3b162;
+.nav-logo {
+  height: 70px;
 }
 
-.nav-logo {
+.navbar a {
   height: 70px;
 }
 
@@ -259,8 +262,8 @@ nav a {
     height: 64px;
   }
 
-  .nav-item:first-child {
-    display: block;
+  .nav-item:first-child{
+    display: inherit;
   }
 
   .search-icon {
@@ -271,11 +274,11 @@ nav a {
     font-size: 20px;
   }
 
-  .nav-logo-text {
-    font-size: 24px;
+  .nav-logo {
+    height: 48px;
   }
 
-  .nav-logo {
+  .navbar a {
     height: 48px;
   }
 }
@@ -288,6 +291,8 @@ nav a {
     margin-left: 0rem;
   }
 }
+
+/** Hero section **/
 
 .hero-text {
   position: absolute;
