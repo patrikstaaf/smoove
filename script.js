@@ -70,3 +70,4 @@ btnYellow.addEventListener("click", () => {
 btnPine.addEventListener("click", () => {
   img.src = "./assets/studiobilgreen.webp";
 });
+
