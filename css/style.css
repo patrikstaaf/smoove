@@ -191,11 +191,15 @@ nav a {
 
 .dropdown-search-button {
   background: linear-gradient(
-142.63deg, #d3b162 12.32%, #fbd888 57.16%, #d3b162 103.43% );
-font-family: var(--paragraph);
-font-weight: 500;
-letter-spacing: 0.05em;
-width: 100px;
+    142.63deg,
+    #d3b162 12.32%,
+    #fbd888 57.16%,
+    #d3b162 103.43%
+  );
+  font-family: var(--paragraph);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  width: 100px;
 }
 
 .nav-link:hover {
@@ -262,7 +266,7 @@ width: 100px;
     height: 64px;
   }
 
-  .nav-item:first-child{
+  .nav-item:first-child {
     display: inherit;
   }
 
@@ -824,7 +828,7 @@ width: 100px;
   );
   border-radius: 0;
   font-size: 14px;
-  color: black;
+  color: var(--coffee);
   -webkit-appearance: none;
 }
 
