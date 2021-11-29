@@ -200,6 +200,7 @@ letter-spacing: 0.05em;
 width: 100px;
 -webkit-appearance: none;
 border-radius: 0;
+color: var(--coffee);
 }
 
 .nav-link:hover {
