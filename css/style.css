@@ -179,9 +179,11 @@ nav a {
 
 .nav-menu {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
   flex-grow: 1;
+  gap: 50px;
+  margin-right: 50px;
 }
 
 .nav-link {
@@ -219,12 +221,6 @@ nav a {
 
 .nav-item:first-child {
   display: none;
-}
-
-@media only screen and (min-width: 1200px) {
-  .nav-menu {
-    margin-left: 12rem;
-  }
 }
 
 @media only screen and (max-width: 920px) {
@@ -288,12 +284,12 @@ nav a {
   .navbar a {
     height: 48px;
   }
-}
-
-@media only screen and (max-width: 1040px) {
   .icons {
     gap: 1.4rem;
   }
+}
+
+@media only screen and (max-width: 1040px) {
   .nav-menu {
     margin-left: 0rem;
   }
