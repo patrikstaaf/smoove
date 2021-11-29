@@ -57,6 +57,7 @@ html {
   /* overflow-y: scroll; */
   /* height: 100%; */
   scroll-padding-top: var(--navHeight);
+  -webkit-font-smoothing: antialiased;
 }
 
 @media (prefers-reduced-motion) {
