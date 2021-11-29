@@ -797,6 +797,7 @@ nav a {
   margin-right: auto;
   max-width: 548px;
   border-radius: 0;
+  -webkit-appearance: none;
 }
 
 .newsletter-email {
@@ -819,6 +820,7 @@ nav a {
   border-radius: 0;
   font-size: 16px;
   color: black;
+  -webkit-appearance: none;
 }
 
 /********* Store Section *********/
