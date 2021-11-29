@@ -796,7 +796,7 @@ nav a {
   margin-left: auto;
   margin-right: auto;
   max-width: 548px;
-  border-radius: none;
+  border-radius: 0;
 }
 
 .newsletter-email {
@@ -816,7 +816,7 @@ nav a {
     #fbd888 57.16%,
     #d3b162 103.43%
   );
-  border-radius: none;
+  border-radius: 0;
   font-size: 16px;
   color: black;
 }
