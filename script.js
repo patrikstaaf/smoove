@@ -70,3 +70,20 @@ btnCoffee.addEventListener("click", () => {
 btnPine.addEventListener("click", () => {
   img.src = "./assets/large/studiogreen.webp";
 });
+<<<<<<< Updated upstream
+=======
+
+/* Btn change image for "Store bottle" */
+
+const image = document.querySelector(".bottle-store");
+const btnBlue = document.querySelector(".bottle-buttons .btn-teal");
+const btnGreen = document.querySelector(".bottle-buttons .btn-pine");
+
+btnBlue.addEventListener("click", () => {
+  image.src = "./assets/store/Bottle_blue_POST_new.webp";
+});
+
+btnGreen.addEventListener("click", () => {
+  image.src = "./assets/store/Bottle_green_POST.webp";
+});
+>>>>>>> Stashed changes
