@@ -58,14 +58,15 @@
     </header>
     <section class="hero">
       <picture>
+        <source class="hero-img" media="(max-width: 650px)"
+        srcset="/assets/heromobile.avif" type="image/avif"/>
         <source
           class="hero-img"
           media="(min-width: 650px)"
-          srcset="/assets/MiljoHero.webp"
-        />
+          srcset="/assets/MiljoHero.webp" type="image/webp"/>
         <img
           class="hero-img"
-          src="assets/mobilehero2.webp"
+          src="assets/heromobilewebp.webp"
           alt=""
         />
       </picture>

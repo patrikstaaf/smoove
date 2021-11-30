@@ -522,6 +522,12 @@ nav a {
   color: var(--cream);
 }
 
+@media screen and (min-width: 1150px) {
+  .car-modifications h2 {
+    font-size: 100px;
+  }
+}
+
 .mod-img-wrapper img {
   width: 100%;
   height: 60vh;
