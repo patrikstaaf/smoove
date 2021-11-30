@@ -1147,6 +1147,7 @@ nav a {
   /* margin: 1.5rem; */
   row-gap: 1.5em;
   bottom: 9%;
+  width: 100%;
 }
 
 .footer-wrapper a {
@@ -1158,33 +1159,40 @@ nav a {
   display: flex;
   flex-direction: column;
   letter-spacing: 0.05em;
+  margin-left: 1rem;
 }
 
 .footer-help {
   display: flex;
   flex-direction: column;
-  padding-left: 3.5rem;
+  padding-left: 2.5rem;
   letter-spacing: 0.05em;
+  margin-right: 1rem;
+  text-align: right;
 }
 
 .footer-help img {
   width: 40px;
   height: 40px;
+  margin-left: auto;
 }
 
 .footer-contact {
   display: flex;
   flex-direction: column;
   letter-spacing: 0.05em;
+  margin-left: 1rem;
 }
 
 .footer-social {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 3.5rem;
+  padding-left: 1.5rem;
   row-gap: 0.5rem;
   grid-gap: 0.5rem;
   padding-top: 0.5rem;
+  margin-right: 1rem;
+  margin-left: auto;
 }
 
 .footer-links h3 {
