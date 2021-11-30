@@ -883,7 +883,7 @@ nav a {
 .store-header {
   width: 100%;
   margin-left: 36px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -907,6 +907,7 @@ nav a {
 .store-slider {
   text-align: center;
   overflow: hidden;
+  height: 80%;
 }
 
 .store-slides {
@@ -917,6 +918,7 @@ nav a {
   -webkit-overflow-scrolling: touch;
   padding: 0px 32px 0px 32px;
   margin-left: 36px;
+  max-height: 80%;
 }
 
 .store-buttons {
