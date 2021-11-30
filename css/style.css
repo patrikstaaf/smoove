@@ -856,6 +856,12 @@ nav a {
   -webkit-appearance: none;
 }
 
+.newsletter-email::placeholder {
+  padding-left: 0.5rem;
+  font-family: var(--paragraph);
+  /* font-size: 12px; */
+}
+
 .newsletter-btn {
   width: 30%;
   height: 40px;
@@ -869,7 +875,7 @@ nav a {
     #d3b162 103.43%
   );
   border-radius: 0;
-  /* font-size: 14px; */
+  /* font-size: 16px; */
   color: var(--coffee);
   -webkit-appearance: none;
 }
