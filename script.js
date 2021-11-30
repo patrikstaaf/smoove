@@ -64,10 +64,9 @@ const btnCoffee = document.querySelector(".mod-body-wrapper .btn-coffee");
 const btnPine = document.querySelector(".mod-body-wrapper .btn-pine");
 
 btnCoffee.addEventListener("click", () => {
-  img.src = "./assets/large/StudioDone(1).webp";
+  img.src = "./assets/large/studiocoffee.webp";
 });
 
 btnPine.addEventListener("click", () => {
-  img.src = "./assets/large/studiobilgreen.webp";
+  img.src = "./assets/large/studiogreen.webp";
 });
-
