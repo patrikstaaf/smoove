@@ -513,13 +513,19 @@ nav a {
 
 .car-modifications h2 {
   position: absolute;
-  top: 5%;
+  top: 3%;
   left: 5%;
   font-family: var(--heading);
   font-size: 50px;
   letter-spacing: 0.05em;
   font-weight: 800;
-  color: var(--cream);
+  background-color: white;
+  background-image: linear-gradient(100deg, #d3b162, #fbd888, #d3b162);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 1150px) {
