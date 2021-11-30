@@ -761,6 +761,10 @@ nav a {
   opacity: 0.7;
 }
 
+.gallery-header {
+  font-weight: 900;
+}
+
 .gallery-subheading {
   font-size: 16px;
 }
@@ -770,12 +774,21 @@ nav a {
   text-align: left;
   margin-left: 1rem;
   margin-right: 1rem;
-  bottom: 5%;
+  top: 75%;
 }
 
 @media only screen and (min-width: 768px) {
   .slides > div {
     width: 33.333333333%;
+  }
+  .gallery-text {
+    top: 70%;
+  }
+}
+
+@media only screen and (min-width: 880px) {
+  .gallery-text {
+    top: 80%;
   }
 }
 
