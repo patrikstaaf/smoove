@@ -60,14 +60,14 @@ function closeMenu() {
 /* Btn change image for "Design your smoove"-section */
 
 const img = document.querySelector(".mod-img-wrapper img");
-const btnYellow = document.querySelector(".mod-body-wrapper .btn-yellow");
+const btnCoffee = document.querySelector(".mod-body-wrapper .btn-coffee");
 const btnPine = document.querySelector(".mod-body-wrapper .btn-pine");
 
-btnYellow.addEventListener("click", () => {
-  img.src = "./assets/StudioDone(1).webp";
+btnCoffee.addEventListener("click", () => {
+  img.src = "./assets/large/StudioDone(1).webp";
 });
 
 btnPine.addEventListener("click", () => {
-  img.src = "./assets/studiobilgreen.webp";
+  img.src = "./assets/large/studiobilgreen.webp";
 });
 
