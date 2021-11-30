@@ -1340,7 +1340,7 @@ nav a {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1130px) {
   .footer-social {
     display: grid;
     grid-template-columns: 1fr 1fr;
