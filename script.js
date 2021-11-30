@@ -70,8 +70,6 @@ btnCoffee.addEventListener("click", () => {
 btnPine.addEventListener("click", () => {
   img.src = "./assets/large/studiogreen.webp";
 });
-<<<<<<< Updated upstream
-=======
 
 /* Btn change image for "Store bottle" */
 
@@ -86,4 +84,3 @@ btnBlue.addEventListener("click", () => {
 btnGreen.addEventListener("click", () => {
   image.src = "./assets/store/Bottle_green_POST.webp";
 });
->>>>>>> Stashed changes
