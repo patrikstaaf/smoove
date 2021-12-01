@@ -301,7 +301,7 @@ nav a {
 
 .hero-text {
   position: absolute;
-  bottom: 5%;
+  top: 22%;
   left: 5%;
 }
 
@@ -1357,7 +1357,7 @@ nav a {
   }
 }
 
-@media screen and (min-width: 1130px) {
+@media screen and (min-width: 1000px) {
   .footer-social {
     display: grid;
     grid-template-columns: 1fr 1fr;
