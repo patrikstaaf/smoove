@@ -161,7 +161,7 @@ nav a {
   display: flex;
   gap: 4rem;
   cursor: pointer;
-  margin-right: 1.2rem;
+  margin-right: 0.9rem;
 }
 
 .search-icon {
@@ -189,7 +189,7 @@ nav a {
 }
 
 .nav-link {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -275,9 +275,9 @@ nav a {
     display: none;
   }
 
-  .nav-link {
+  /* .nav-link {
     font-size: 20px;
-  }
+  } */
 
   .nav-logo {
     height: 48px;
@@ -297,11 +297,23 @@ nav a {
   }
 }
 
+@media only screen and (max-height: 600px) {
+  .nav-item {
+    margin: 0.6rem;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .nav-item {
+    margin: 1rem;
+  }
+}
+
 /** Hero section **/
 
 .hero-text {
   position: absolute;
-  top: 22%;
+  bottom: 5%;
   left: 5%;
 }
 
@@ -412,6 +424,15 @@ nav a {
   }
 }
 
+@media only screen and (max-height: 630px) {
+  .hero-h2-mobile {
+    font-size: 20px;
+  }
+  .hero-p-mobile {
+    font-size: 14px;
+  }
+}
+
 /********* Animation Section *********/
 
 .animation {
@@ -484,6 +505,13 @@ nav a {
   }
 }
 
+@media only screen and (max-height: 600px) {
+  .animation-text p {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+}
+
 /********* Test Feature Section *********/
 
 /* .features-wrapper {
@@ -541,7 +569,7 @@ nav a {
 
 @media screen and (min-width: 1186px) {
   .car-modifications h2 {
-    font-size: 100px;
+    font-size: 80px;
   }
 }
 
@@ -711,6 +739,18 @@ nav a {
   }
 }
 
+@media only screen and (max-height: 630px) {
+  .mod-wrapper {
+    margin-top: 0;
+  }
+  .mod-wrapper p {
+    font-size: 20px;
+  }
+  .car-modifications h2 {
+    font-size: 24px;
+  }
+}
+
 /********* USP Section *********/
 
 .usp {
@@ -809,6 +849,15 @@ nav a {
   }
 }
 
+@media only screen and (max-height: 630px) {
+  .gallery-header {
+    font-size: 20px;
+  }
+  .gallery-subheading {
+    font-size: 14px;
+  }
+}
+
 /* Newsletter */
 
 .newsletter {
@@ -887,6 +936,21 @@ nav a {
   /* font-size: 16px; */
   color: var(--coffee);
   -webkit-appearance: none;
+}
+
+@media only screen and (max-height: 630px) {
+  .newsletter h3 {
+    font-size: 20px;
+  }
+  .newsletter p {
+    font-size: 14px;
+  }
+  .gallery-text {
+    font-size: 18px;
+  }
+  .gallery-text {
+    top: 72%;
+  }
 }
 
 /********* Store Section *********/
@@ -1041,9 +1105,9 @@ nav a {
   z-index: -1;
 }
 
-.gallery-subheading {
+/* .gallery-subheading {
   font-size: 16px;
-}
+} */
 
 @media only screen and (min-width: 650px) {
   .store-slides > div {
@@ -1053,7 +1117,7 @@ nav a {
     display: none;
   }
   .store-header h2 {
-    font-size: 100px;
+    font-size: 80px;
   }
   .store-slides {
     overflow-x: hidden;
@@ -1368,6 +1432,6 @@ nav a {
     margin-right: 1rem;
     margin-left: auto; */
     left: 21%;
-    margin-top: 0px;
+    margin-top: -4px;
   }
 }
