@@ -31,7 +31,7 @@
         <ul class="nav-menu">
           <li class="nav-item">
             <input aria-label="Search field" type="text"/>
-            <input class="dropdown-search-button" type="submit" value="Search"/>
+            <input aria-label="Search button" class="dropdown-search-button" type="submit" value="Search"/>
           </li>
           <li class="nav-item">
             <a href="#design-your-smoove" class="nav-link"
@@ -87,8 +87,8 @@
       </div>
     </section>
     <section class="animation" tabindex="0">
-      <video autoplay muted playsinline loop>
-        <source src="/assets/large/cropped-animation.mp4" type="video/mp4" aria-describedby="Car being pulled apart and being put together animation." />
+      <video aria-describedby="Car being pulled apart and being put together animation."  autoplay muted playsinline loop>
+        <source src="/assets/large/cropped-animation.mp4" type="video/mp4" />
       </video>
       <div class="animation-header-wrapper">
         <h2 class="animation-header">
@@ -192,8 +192,7 @@
           <h3>Sign up for our newsletter.</h3>
           <p>Get the latest news - first.</p>
           <form class="newsletter-input" action="index.html">
-            <label for="newsletter"></label>
-            <input id="newsletter" class="newsletter-email" name="newsletter" type="email" placeholder="Enter your email" /><button class="newsletter-btn" type="submit">Sign Up</button>
+            <input aria-label="Newsletter sign up field" class="newsletter-email" name="newsletter" type="email" placeholder="Enter your email" /><button class="newsletter-btn" type="submit">Sign Up</button>
             <!-- <label for="submit"></label>
             <input
               class="newsletter-btn"
