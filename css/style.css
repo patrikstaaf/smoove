@@ -243,7 +243,7 @@ nav a {
   }
 
   .nav-item {
-    margin: 2.5rem 0;
+    margin: 2.2rem 0;
   }
 
   .hamburger {
@@ -303,7 +303,7 @@ nav a {
   }
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 650px) {
   .nav-item {
     margin: 1rem;
   }
