@@ -57,7 +57,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-@media (prefers-reduced-motion) {
+/* @media (prefers-reduced-motion) {
   body {
     scroll-behavior: inital;
   }
@@ -65,10 +65,9 @@ html {
 
 @supports (-webkit-touch-callout: none) {
   body {
-    /* The hack for Safari */
     height: -webkit-fill-available;
   }
-}
+} */
 
 section {
   position: relative;
@@ -105,14 +104,14 @@ section {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .dropdown-text-desktop {
     display: block;
   }
   .dropdown-text-mobile {
     display: none;
   }
-}
+} */
 
 /********* Navigation *********/
 
@@ -215,7 +214,7 @@ nav a {
   display: none;
 }
 
-@media only screen and (max-height: 600px) {
+/* @media only screen and (max-height: 600px) {
   .nav-item {
     margin: 0.6rem;
   }
@@ -282,7 +281,7 @@ nav a {
   .nav-menu {
     margin-left: 0rem;
   }
-}
+} */
 
 /********* Hero Section *********/
 
@@ -347,7 +346,7 @@ nav a {
   object-position: center;
 }
 
-@media only screen and (max-height: 630px) {
+/* @media only screen and (max-height: 630px) {
   .hero-h2-mobile {
     font-size: 20px;
   }
@@ -393,7 +392,7 @@ nav a {
   .hero-p-desktop {
     font-size: 18px;
   }
-}
+} */
 
 /********* Animation Section *********/
 
@@ -450,7 +449,7 @@ nav a {
   text-align: justify;
 }
 
-@media only screen and (max-height: 600px) {
+/* @media only screen and (max-height: 600px) {
   .animation-text p {
     font-size: 14px;
     line-height: 1rem;
@@ -465,7 +464,7 @@ nav a {
     font-size: 18px;
     line-height: 2rem;
   }
-}
+} */
 
 /********* Car Modification Section *********/
 
@@ -570,7 +569,7 @@ nav a {
   height: 33%;
 }
 
-@media only screen and (max-height: 600px) {
+/* @media only screen and (max-height: 600px) {
   .mod-wrapper {
     margin-top: 0;
   }
@@ -633,7 +632,7 @@ nav a {
   .car-modifications h2 {
     font-size: 80px;
   }
-}
+} */
 
 /********* USP Section *********/
 
@@ -716,7 +715,7 @@ nav a {
   top: 75%;
 }
 
-@media only screen and (max-height: 630px) {
+/* @media only screen and (max-height: 630px) {
   .gallery-header {
     font-size: 20px;
   }
@@ -738,7 +737,7 @@ nav a {
   .gallery-text {
     top: 75%;
   }
-}
+} */
 
 /********* Newsletter part *********/
 
@@ -816,7 +815,7 @@ nav a {
   -webkit-appearance: none;
 }
 
-@media only screen and (max-height: 630px) {
+/* @media only screen and (max-height: 630px) {
   .newsletter h3 {
     font-size: 20px;
   }
@@ -829,7 +828,7 @@ nav a {
   .gallery-text {
     top: 72%;
   }
-}
+} */
 
 /********* Store Section *********/
 
@@ -981,7 +980,7 @@ nav a {
   z-index: -1;
 }
 
-@media only screen and (min-width: 650px) {
+/* @media only screen and (min-width: 650px) {
   .store-slides > div {
     width: 33.33333%;
   }
@@ -995,7 +994,7 @@ nav a {
     overflow-x: hidden;
     margin-left: 0px;
   }
-}
+} */
 
 /********* End of store section *********/
 
@@ -1036,7 +1035,7 @@ nav a {
   letter-spacing: 0.05em;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .store-header h2 {
     margin: 2.5rem 0 2rem 0;
   }
@@ -1095,7 +1094,7 @@ nav a {
   .bottom-highlighted-p-desktop {
     font-size: 24px;
   }
-}
+} */
 
 /********* Footer Section *********/
 
@@ -1222,7 +1221,7 @@ nav a {
   bottom: 3%;
 }
 
-@media screen and (min-width: 425px) {
+/* @media screen and (min-width: 425px) {
   .footer-links {
     margin-left: 2rem;
   }
@@ -1296,4 +1295,4 @@ nav a {
     left: 21%;
     margin-top: -4px;
   }
-}
+} */
